@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* main CSS Document */
+
+
+/* main page */
+body {
+	background-image:url(../images/tapestry_pattern.png);
+	font-family:Verdana, Geneva, sans-serif;
+	color:#3b3d31;
+}
+
+#page-container {
+	width:960px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#c8cfb4;
+	border: 1px solid #dddddd;
+}
+
+h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	font-style:italic;
+	color:#5c604d;
+}
+
+h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	font-style:italic;
+	color:#5c604d;
+}
+
+.text-muted {
+	opacity: .7;
+}
+
+.lead {
+	font-weight:bold;
+}
+
+a.btn {
+	display:block;
+	background-color:#f20056;
+	border-radius:15px;
+	text-decoration:none;
+	font-weight:bold;
+	padding:10px;
+	text-align:center;
+	color:#e5e7e1;
+}
+
+a:hover.btn {
+	background-color:#ffbad2;
+	color:#5c604d;
+}
+
+.btn-large {
+	width:400px;
+}
+
+.confirm-msg {
+	width:100%;
+	background-color:#ffbad2;
+	padding:10px;
+}
+
+.page-images {
+	float:right;
+	border:10px solid #ffffff;
+	margin-left:10px;
+}
+
+/* top row */
+#nav {
+	width:940px;
+	display:block;
+	margin:10px 10px 5px 10px;
+	font-weight:bold;
+}
+
+.logo {
+	display:block;
+	margin:auto;
+}
+
+#vid-screen {
+	width:700px;
+	height:620px;
+	float:left;
+	margin:5px 5px 5px 10px;
+}
+
+#vid-screen p {
+	line-height:27px;
+}
+
+.branding {
+	width:230px;
+	float:right;
+	margin:5px 10px 5px 5px;
+}
+
+.bottom-branding {
+	margin-bottom:10px;
+}
+
+.branding-text {
+	text-align:center;
+	font-size:18px;
+	line-height:26px;
+	padding:20px;
+	font-style:italic;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#5c604d;
+}
+
+#vid-screen p.address {
+	line-height:normal;
+	font-weight:bold;
+}
+
+#body-copy {
+	width:700px;
+	float:left;
+	margin:5px 5px 5px 10px;
+	line-height:27px;
+}
+
+
+/* middle row */
+#middle-row {
+	width:920px;
+	margin: 10px;
+	background:#a3ae7e;
+	clear:both;
+	padding:10px;
+}
+
+.bottom {
+	width:450px;
+	color:e5e7e1;
+	font-size:14px;
+	line-height:25px;
+}
+
+#bottom-left {
+	float:left;
+	margin-right:5px;
+}
+
+#bottom-right {
+	float:right;
+	margin-left:5px;
+}
+
+.clear-both {
+	display:block;
+	clear:both;
+}
+
+/* footer */
+#footer {
+	width:920px;
+	clear:both;
+	margin:10px;
+  	background: #f20056;
+	padding:10px;
+	color:#e5e7e1;
+	height:100px;
+}
+
+.copyright-text {
+	margin-top:60px;
+	text-align:right;
+}
+
+.created {
+	text-align:right;
+	font-size:10px;
+}
+
+.created a {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.created a:hover {
+	color:#0000ff;
+	background-color:#ffffff;
+}
+
+.gallery-images img {
+	width:160px;
+	border:5px solid #ffffff;
+}
+
+#cssmenu img {
+	margin-left: 5px;
+}
+
+#body-copy a {
+	text-decoration:none;
+	color:#0000ff;
+}
+
+#body-copy a:hover {
+	color:#ff0000;
+	font-weight:bold;
+}
+
+#body-copy ul {
+	list-style-image:url(../images/arrow.png);
+}
+
+a#garima, a#diganta, a#sukalpa, a#bhabajeet {
+	color:#5c604d;
+	opacity:.7;
+}
+
+a:hover#garima, a:hover#diganta, a:hover#sukalpa, a:hover#bhabajeet {
+	color:#5c604d;
+}
+
+.overlay {
+	display:none;
+}
+
+#body-copy a.btn-small {
+	color:#e5e7e1;
+	width:200px;
+	display:inline;
+}
+
+.opentrigger {
+	display:block;
+	text-align:center;
+	padding:10px;
+	background-color:#5c604d;
+	color:#ffbad2;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.opentrigger:hover {
+	color:#5c604d;
+	background-color:#ffbad2;
+}

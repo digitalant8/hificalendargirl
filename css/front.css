@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* carousel */
+
+#carousel-wrap {
+	clear:both;
+	padding:10px;
+	background-color:#5c604d;
+}
+
+.img-thumbs {
+	width:176px;
+	margin-right:10px;
+}
+
+/* slider */
+
+#amazingslider-1 {
+	display:block;
+	position:relative;
+	margin-left:5px;
+}
+
+.amazingslider-title-0 {
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
